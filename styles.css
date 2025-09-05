@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f2fa;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #6c3fd1 0%, #b27bf9 100%);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #f7f2fa;
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.intro h2 {
+    color: #6c3fd1;
+    font-size: 2em;
+}
+
+.latest h2 {
+    margin-top: 40px;
+    color: #6c3fd1;
+}
+
+.post-preview h3 a {
+    color: #6c3fd1;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.post-preview h3 a:hover {
+    color: #b27bf9;
+    text-decoration: underline;
+}
+
+.contact h2 {
+    margin-top: 40px;
+    color: #6c3fd1;
+}
+
+.contact a {
+    color: #b27bf9;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #6c3fd1;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 30px;
+}
